@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="167" height="175" viewBox="0 0 167 175">
+  <defs>
+    <filter id="Retângulo_35" x="0" y="0" width="167" height="175" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="icon_08" transform="translate(-1222 -4824)">
+    <g id="Grupo_54" data-name="Grupo 54" transform="translate(1231.071 4822.911)">
+      <g transform="matrix(1, 0, 0, 1, -9.07, 1.09)" filter="url(#Retângulo_35)">
+        <rect id="Retângulo_35-2" data-name="Retângulo 35" width="149" height="157" rx="25" transform="translate(9 6)" fill="#aed66b"/>
+      </g>
+    </g>
+    <g id="business-and-finance" transform="translate(1260 4874)">
+      <path id="Caminho_696" data-name="Caminho 696" d="M89.164,292.771a7.833,7.833,0,0,0-10.639-2.922L60,299.293a7.8,7.8,0,0,0-3.878-2.422l-19.391-5.192a7.8,7.8,0,0,0-4.509.135l-6.657,2.219a4.732,4.732,0,0,1-1.49.241H18.822V288H0v3.137H15.685v31.369H0v3.137H18.822v-4.705h2.365a4.691,4.691,0,0,1,1.14.141l11.048,2.761a7.819,7.819,0,0,0,1.9.235H48.511a7.841,7.841,0,0,0,3.921-1.049L86.3,303.475a7.866,7.866,0,0,0,3.921-6.785A7.773,7.773,0,0,0,89.164,292.771Zm-4.436,7.986L50.863,320.311a4.724,4.724,0,0,1-2.353.627H35.278a4.692,4.692,0,0,1-1.14-.141L23.09,318.036a7.815,7.815,0,0,0-1.9-.235H18.822v-20.39h5.256a7.876,7.876,0,0,0,2.481-.4l6.656-2.219a4.676,4.676,0,0,1,2.7-.082L55.312,299.9a4.706,4.706,0,0,1-2.477,9.08l-14.822-3.551-.731,3.053,14.779,3.54a7.843,7.843,0,0,0,9.488-10l18.472-9.422a4.706,4.706,0,0,1,4.707,8.151Zm0,0" transform="translate(0 -256.631)"/>
+      <path id="Caminho_697" data-name="Caminho 697" d="M226.822,128a18.822,18.822,0,1,0,18.822,18.822A18.822,18.822,0,0,0,226.822,128Zm0,34.506a15.685,15.685,0,1,1,15.685-15.685A15.684,15.684,0,0,1,226.822,162.506Zm0,0" transform="translate(-167.22 -128)"/>
+      <path id="Caminho_700" data-name="Caminho 700" d="M278.274,158.274a3.137,3.137,0,0,1,3.137,3.137h3.137a6.274,6.274,0,0,0-4.705-6.051V152h-3.137v3.36a6.261,6.261,0,0,0,1.569,12.325,3.137,3.137,0,1,1-3.137,3.137H272a6.274,6.274,0,0,0,4.705,6.051v3.36h3.137v-3.36a6.261,6.261,0,0,0-1.568-12.325,3.137,3.137,0,1,1,0-6.274Zm0,0" transform="translate(-218.672 -147.295)"/>
+    </g>
+  </g>
+</svg>

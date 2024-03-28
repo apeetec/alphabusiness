@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="165" height="175" viewBox="0 0 165 175">
+  <defs>
+    <filter id="Retângulo_35" x="0" y="0" width="165" height="175" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="icon_09" transform="translate(-1225 -5057)">
+    <g id="Grupo_302" data-name="Grupo 302" transform="translate(1234.122 5056.855)">
+      <g transform="matrix(1, 0, 0, 1, -9.12, 0.14)" filter="url(#Retângulo_35)">
+        <rect id="Retângulo_35-2" data-name="Retângulo 35" width="147" height="157" rx="25" transform="translate(9 6)" fill="#aed66b"/>
+      </g>
+    </g>
+    <g id="helicopter" transform="translate(1267.847 5102.019)">
+      <g id="Grupo_304" data-name="Grupo 304" transform="translate(5.997 5.997)">
+        <g id="Grupo_303" data-name="Grupo 303">
+          <path id="Caminho_693" data-name="Caminho 693" d="M86.927,39.754a33.393,33.393,0,0,0-47.173,0A33.031,33.031,0,0,0,30,63.341,33.341,33.341,0,1,0,86.927,39.754ZM84.608,84.608A30.112,30.112,0,1,1,93.4,63.341,29.318,29.318,0,0,1,84.608,84.608Z" transform="translate(-30 -30)"/>
+        </g>
+      </g>
+      <g id="Grupo_306" data-name="Grupo 306">
+        <g id="Grupo_305" data-name="Grupo 305">
+          <path id="Caminho_694" data-name="Caminho 694" d="M67.161,11.513A39.377,39.377,0,1,0,78.674,39.337,39.214,39.214,0,0,0,67.161,11.513ZM64.922,64.922A36.289,36.289,0,1,1,75.476,39.337,36.007,36.007,0,0,1,64.922,64.922Z"/>
+        </g>
+      </g>
+      <g id="Grupo_308" data-name="Grupo 308" transform="translate(21.827 21.108)">
+        <g id="Grupo_307" data-name="Grupo 307">
+          <path id="Caminho_695" data-name="Caminho 695" d="M143.5,106.32a2.665,2.665,0,0,0-1.679-.72h-9.754a2.178,2.178,0,0,0-1.679.72,2.493,2.493,0,0,0-.72,1.679v8.635h-5.917V108a2.177,2.177,0,0,0-.72-1.679,2.493,2.493,0,0,0-1.679-.72H111.6a2.178,2.178,0,0,0-1.679.72A2.493,2.493,0,0,0,109.2,108V139.66a2.177,2.177,0,0,0,.72,1.679,2.493,2.493,0,0,0,1.679.72h9.754a2.177,2.177,0,0,0,1.679-.72,2.493,2.493,0,0,0,.72-1.679v-9.275h5.917v9.275a2.177,2.177,0,0,0,.72,1.679,2.493,2.493,0,0,0,1.679.72H141.9a2.177,2.177,0,0,0,1.679-.72,2.493,2.493,0,0,0,.72-1.679V108A2.763,2.763,0,0,0,143.5,106.32Zm-2.4,32.541h-8.235V128.787a1.6,1.6,0,0,0-1.6-1.6h-9.115a1.6,1.6,0,0,0-1.6,1.6v10.074H112.4V108.8h8.155v9.435a1.6,1.6,0,0,0,1.6,1.6h9.115a1.6,1.6,0,0,0,1.6-1.6V108.8H141.1Z" transform="translate(-109.2 -105.6)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
