@@ -1,0 +1,211 @@
+/*
+Theme Name: (Alpha)
+*/
+a, a:hover, a:focus {outline: none;text-decoration: none;}
+/*! Modelo para importação de fonte, usar sempre em extensão WOFF !*/
+@font-face {font-family: 'MuseoSans100';font-style: normal;font-weight: normal;src: local('MuseoSans100'), url('fonts/museosans-100.woff') format('woff');}
+/*Inicio slycarousel*/
+.m-carousel {overflow: hidden;}
+.m-carousel .m-carousel__slides {position: relative;list-style: none;
+margin: 0;padding: 0;height: 100%;}
+.m-carousel .m-carousel__slides .m-carousel__slide {float: left;
+width: 403px;min-width: 403px;height: 100%;margin: 0 10px;cursor: pointer;}
+.m-carousel .m-carousel__slides .m-carousel__slide.active {background: #aed66b;}
+.m-carousel__slide {min-height: 100px;background: #ccc;}
+#sumir{display: none!important;}
+/* Scrollbar */
+.scrollbar {margin: 1em 0 1em 0;height: 3px;background: #CDDDFB;line-height: 0;}
+.scrollbar .handle {width: 100px;height: 100%;background: #33584d;cursor: pointer;}
+.scrollbar .handle .mousearea {position: absolute;top: -9px;left: 0;width: 100%;height: 20px;}
+/*Fim slycarousel*/
+
+/*Minhas classes*/
+nav .btn{height: auto!important;}
+.display-grid{display: grid;grid-template-columns: 1fr 1fr 1fr 1fr;grid-gap: 5px;place-items:center;}
+.display-flex{display: flex;flex-wrap: wrap;}
+.flex-grow{flex-grow: 1;flex-basis: 25%;padding: 0px 11.25px;}
+/*****************/
+.letra-corcinza {color: #777777!important;}
+.letra-verdeclaro {color: #aed66b;}
+h1,h2,h3,h4,h5,h6,ul li{font-family: 'Montserrat'!important;}
+span,a{font-family: 'Montserrat'!important;}
+p{font-family: 'Montserrat'!important;}
+ul li{font-family: 'Montserrat'!important;}
+.navbar-suspenso{position: absolute;}
+.navbar{height: 93px!important;}
+.darkHeader{background-color: #33584d!important;}
+.link-menu{font-weight: lighter!important;}
+.display-grid{display: grid;grid-gap: 5px;place-items:center;}
+.display-grid.semgap{grid-gap: 0px!important}
+.display-grid.quatro-blocos{grid-template-columns: 1fr 1fr 1fr 1fr;/*Esse é o máximo que qualquer container consegue suportar de quantidade de items*/}
+.display-grid.tres-blocos{grid-template-columns: 1fr 1fr 1fr;}
+.display-grid.dois-bloco{grid-template-columns: 1fr 1fr;}
+.display-grid.dois-bloco.linha{grid-template-rows: 550px;}
+.display-flex{display: flex;flex-wrap: wrap;}
+.meio{justify-content: center;align-items: center;}
+.flex-item.relativo{left: 8.3333333333%;position: relative;flex: 1 1 60%!important;}
+.flex-item.subtitulo{flex: 1 1 40%!important;}
+.flex-item{flex: 1 1 50%;}
+.flex-item.meio{display: flex;align-items: center;height: 100%;}
+.grid-item{height: 100%;width: 100%;}
+.grid-item.meio{width: 100%;display: grid;align-items:center;place-items:center;}
+.grid-item .responsive-img{height: 100%;width: 100%;}
+.flex-grow{flex-grow: 1;flex-basis: 25%;padding: 0px 11.25px;}
+.sempadding{padding: 0px!important;}
+.semmargem{margin: 0px!important;grid-gap: 0 40px;}
+.letra-verde-escuro{color: #23431e;}
+/*Navbar modal*/
+.modal.menu .modal-content ul li{margin-top: 10px!important;}
+.modal.menu .modal-content .row .col.l6 ul li a:hover{border-bottom: 1px solid #fff;}
+nav ul a.btn, nav ul a.btn-large, nav ul a.btn-small, nav ul a.btn-large, nav ul a.btn-flat, nav ul a.btn-floating{box-sizing: border-box!important;background: rgba( 255, 255, 255, 0.10 )!important;box-shadow: 0px 10px 50px 0 rgb(31 38 135 / 20%)!important;backdrop-filter: blur( 8.0px )!important;-webkit-backdrop-filter: blur( 8.0px )!important;}
+.navbar-fixed nav{padding: 10px 0px;background-color: transparent;box-shadow: none;}
+.modal.menu{height: 100vh;width: 100%;outline: none!important;min-height: 100%;top: 0!important;}
+.modal.menu .modal-content{height: 100%;padding: 0px;}
+.modal.menu .modal-content .row{height: 100%;}
+.modal.menu .modal-content .row .col.l6 ul{line-height: 31px!important;}
+.modal.menu .modal-content .row .col.l6 ul li span b{color: black!important;font-weight: bolder!important;}
+.modal.menu .modal-content .row .col.l6 ul li a{font-size: 18px;color: #fff;}
+.modal.menu .modal-content .row .col.l6{height: 100%;display: grid;place-items:center;align-items: center;}
+/*Do tamanho do seu negócio*/
+.do-tamanho-negocio .grid-item.meio h1{font-size: 44px;line-height: 48px;font-weight: 600;}
+.do-tamanho-negocio .grid-item.meio span{font-size: 16px;font-weight: 550!important;}
+.do-tamanho-negocio .grid-item.meio .btn{background-color: #23431e!important;margin: 10px 0px}
+/*Flexibilidade*/
+.flexibilidade h1{font-size: 28px;line-height: 40px;font-weight: 600;}
+.flexibilidade h2{font-size: 17px!important;font-weight: 700;}
+.flexibilidade p{color: #757575;}
+.flexibilidade .row ul li{margin-top: 10px;color: #757575;font-size: 16px;line-height: 24px;font-weight: lighter;}
+.flexibilidade .row ul li i.tiny{font-size: .4rem;margin-right: 8px;} 
+   /*Fundo*/
+.fundo {background-size: cover;height: 680px;width: 100%;background-repeat: no-repeat;background-position: top;position: relative;}
+.fundo .container .row p {position: absolute;font-size: 37px;top: 50px;line-height: 40px;left: 0;right: 0;z-index: 996;font-weight: lighter;color: #fff!important;}
+.fundo .sombra {height: 100%;width: 100%;position: absolute;z-index: 995;background: linear-gradient(14deg, black, transparent);}
+.tudo-sua-empresa{padding-bottom: 90px;}
+.tudo-sua-empresa h1{font-size: 52px;font-weight: lighter;}
+.tudo-sua-empresa i.tiny{font-size: .4rem!important;color: black!important;margin-right: 8px;}
+.sessao-icones span {font-size: 13px;font-weight: 500;text-align: left;}
+/*Estrutura*/
+.estrutura-completa i.tiny{font-size: .4rem!important;color: #fff;}
+/*Custos reduzidos*/
+.custos-reduzidos i.tiny{font-size: .4rem!important;color: #fff;}
+.custos-reduzidos h1{font-size: 47px;font-weight: lighter;margin: 0!important;}
+/*Video*/
+.video .row .video-container{height: 440px!important;padding: 0!important;}
+.video .row .video-container iframe{height: 440px;padding: 0!important;}
+/*Empresas e clientes*/
+.empresa-clientes h1{font-size: 39px;line-height: 42px;margin: 0!important;}
+.empresa-clientes h2{font-size: 16px;line-height: 18px;margin: 0!important;}
+/*Inicio slycarousel*/
+.m-carousel {overflow: hidden;}
+.m-carousel .m-carousel__slides {position: relative;list-style: none;
+margin: 0;padding: 0;height: 100%;}
+.m-carousel .m-carousel__slides .m-carousel__slide {float: left;
+width: 403px;min-width: 403px;height: 100%;margin: 0 10px;cursor: pointer;}
+.m-carousel .m-carousel__slides .m-carousel__slide.active {background: #aed66b;}
+.m-carousel__slide {min-height: 100px;background: #ccc;}
+/* Scrollbar */
+.scrollbar {margin: 1em 0 1em 0;height: 3px;background: #CDDDFB;line-height: 0;}
+.scrollbar .handle {width: 100px;height: 100%;background: #33584d;cursor: pointer;}
+.scrollbar .handle .mousearea {position: absolute;top: -9px;left: 0;width: 100%;height: 20px;}
+/*Estrutura*/
+.estrutura-completa i.tiny{font-size: .4rem!important;color: #fff!important;}
+/*Custos reduzidos*/
+.custos-reduzidos i.tiny{font-size: .4rem!important;color: #fff!important;}
+.custos-reduzidos h1{font-size: 47px;font-weight: lighter;margin: 0!important;}
+/*Video*/
+.video .row .video-container{height: 440px!important;padding: 0!important;}
+.video .row .video-container iframe{height: 440px;padding: 0!important;}
+/*Empresas e clientes*/
+.empresa-clientes h1{font-size: 39px;line-height: 42px;margin: 0!important;}
+.empresa-clientes h2{font-size: 16px;line-height: 18px;margin: 0!important;}
+.slick-slide img{margin: 0 auto;}
+/*.slick-slide img:hover{transition: .8s;transform: scale(1.1);}*/
+.caixa-cartoes .cartao p,.caixa-cartoes .cartao p a{text-align: center;font-size: 13px;color: #777777!important;}
+.caixa-cartoes .cartao p a{word-break: break-all;}
+.caixa-cartoes .cartao{margin-bottom: 40px;margin-top: 40px;padding: 0px 10px;height: auto;}
+.caixa-imagem{height: 200px;display: grid;align-items: center;}
+.caixa-cartoes .cartao .corpo-cartao{height: 371px;display: grid;align-items: center;}
+.caixa-cartoes .cartao .caixa-botão{width: 100%;padding: 0px 15px;}
+.caixa-cartoes .cartao .caixa-botão a {display: inline-block;padding: 10px 11px;margin: 0 auto;text-align: center;background-color: #33512e;width: 100%;border-radius: 25px;margin-bottom: -20px;color: #fff;}
+.slick-prev:before, .slick-next:before{color: #33512e!important;}
+/*Carousel materialize*/
+.carousel p,.carousel p a{font-size: 13px!important;}
+.carousel .container{width: 100%;padding:15px 15px;}
+.carousel .btn{text-align: center;background-color: rgb(51, 81, 46);width: 100%;color: rgb(255, 255, 255);border-radius: 25px;max-width: 210px;margin: 0 auto;position: absolute;bottom: -20px;left: 0;right: 0;}
+.carousel .carousel-item img{width: 170px;display: block;object-fit: contain;margin: 0 auto;margin-top: 20px;}
+.carousel .carousel-item.flex{display: flex;flex-direction: column;justify-content: center;padding: 15px 0px;align-items: center;}
+.carousel .carousel-item.flex .caixa-img{width: 170px;height: 70px;margin-bottom: 10px;}
+.carousel .carousel-item.flex .caixa-img img{width: 100%;object-fit: contain;}
+
+/*Outro carousel com slick slider*/
+.cartão2{height: auto;margin: 0 auto;margin-top: 20px;margin-bottom: 20px;padding: 10px;}
+.cartão2 .corpo-cartao2{display: grid;align-items: center;/*grid-template-rows: 200px 200px;*/justify-content: center;position: relative;grid-template-columns: 1fr;grid-template-rows: 144px 210px;}
+.cartão2 .corpo-cartao2 .flex-container{/*padding: 0px 25px;*/box-sizing: border-box;width: 100%;display: flex;align-items: end;height: 100%;margin:0 auto;}
+.cartão2 .corpo-cartao2 .btn-large{position: absolute;left: 0;right: 0;bottom: -17px;margin: 0 auto;border-radius: 25px;max-width: 210px;background-color: #23431e;}
+.cartão2 .corpo-cartao2 .caixa-imagem2{width: auto;margin: 0 auto;height: 100%;display: flex;align-items: center;}
+.cartão2 .corpo-cartao2 .caixa-imagem2.meio{position: absolute;top: 50%;transform: translate(-50%,-50%);left: 50%;}
+.cartão2 .corpo-cartao2 .caixa-imagem2 img{object-fit: contain;width: 170px;}
+.cartão2 .corpo-cartao2 p{padding: 0!important;margin: 5px 0px;font-size: 13px;text-align: center;color: rgba(0, 0, 0, 0.87);}
+.cartão2 .corpo-cartao2 p a{font-size: 13px;text-align: center;word-break: break-all;color: rgba(0, 0, 0, 0.87);}
+.cartão2 .corpo-cartao2 p.semhover:hover{border-bottom: none!important;}
+.cartão2 .corpo-cartao2 p:hover{border-bottom: 1px solid #23431e;}
+/*Contato*/
+.contato{position: relative;background-color: #23431e!important;}
+/*.contato svg{position: absolute;bottom: 0;}*/
+.contato h2 {font-size: 47px;font-weight: lighter;margin: 0!important;}
+/*Localização*/
+.localizacao h1 {font-size: 47px;margin-bottom: 20px;}
+.localizacao .display-grid.dois-bloco.linha{padding: 25px 0px;}
+.localizacao .display-grid.dois-bloco .grid-item.meio .container{width: 100%!important;}
+.localizacao span.letra-verde-escuro {font-size: 21px;font-weight: bolder;}
+.localizacao .divider{margin: 15px 0px;}
+/*Rodapé*/
+.page-footer{position: relative;background-color: #33512e!important;}
+.page-footer .brand-logo{position: absolute;width: 217px;top: -111px;}
+.page-footer .brand-logo .responsive-img{width: 100%;display: block;box-sizing: border-box;}
+footer.page-footer p{font-size: 13px; line-height: 16px;}
+footer.page-footer ul li a {color: #fff;}
+footer.page-footer ul li{padding-bottom: 6px;font-weight: lighter;width: 90px;}
+footer.page-footer h4{font-size: 15px;margin-bottom: 14px;}
+footer.page-footer span {font-size: 14px;line-height: 21px;font-weight: lighter;}
+
+/*Medias queries*/
+@media only screen and (max-width : 992px){
+	#sumir{display: block;}
+	.caixa-imagem{height: auto;padding: 10px;}
+	/*Resets*/
+	h1,h3,h4,h5{font-size: 24px!important;line-height: 32px!important;margin: 25px 0px!important;}
+	/*p,ul{padding: 0px 20px;}*/
+	.estrutura-completa h1, .custos-reduzidos h1, .contato h2, .tudo-sua-empresa h1{padding: 0px 20px;margin-top: 25px!important;}
+	.do-tamanho-negocio .display-grid.dois-bloco{grid-template-columns: 1fr;}
+	.do-tamanho-negocio .display-grid.dois-bloco .grid-item.meio{padding: 0px 20px;}
+	/*flexibilidade*/
+	.flexibilidade .display-grid{grid-template-areas:"texto texto texto" "foto foto foto";grid-template-rows: 1fr 313px;grid-template-columns: 1fr;}
+	.flexibilidade .display-grid .grid-item.foto{grid-area: foto;}
+	.flexibilidade .display-grid .grid-item{grid-area: texto;}
+	.flexibilidade h1{padding: 0px 20px;}
+	.flexibilidade h2{padding: 0px 20px;}
+	/*Clientes*/
+	#customers-testimonials .shadow-effect p{word-break: break-all;}
+	/*Estrutura*/
+	.estrutura-completa .display-grid.dois-bloco{grid-template-columns: 1fr;}
+	/*Fundo*/
+	.fundo .container .row p{font-size: 31px;}
+	/*custos reduzidos*/
+	.custos-reduzidos .display-grid.dois-bloco {grid-template-columns: 1fr;grid-template-areas:"foto foto foto""texto texto texto";}
+	.custos-reduzidos .display-grid.dois-bloco .grid-item.texto{grid-area: texto;} 
+	.custos-reduzidos .display-grid.dois-bloco .grid-item.foto{grid-area: foto;} 
+	/*Seu negocio*/
+	.seu-negocio-divisao h1{text-align: center;}
+	/*Empresas e clientes*/
+	.flex-item.relativo{position: unset;flex: 1;left: unset;}
+	.empresa-clientes h2{margin-top: 15px!important;}
+	.empresa-clientes .container .display-flex{flex-direction: column!important;}
+	/*Contato*/
+	.contato .display-grid{grid-template-columns: 1fr;}
+	.contato .display-grid .grid-item.meio{padding-bottom: 60px;box-sizing: border-box;}
+	.contato h2{font-size: 24px;line-height: 32px;}
+	/*Localização*/
+	.localizacao .display-grid.dois-bloco.linha{grid-template-columns: 1fr;grid-template-rows: 1fr;justify-content: center;align-items: center;align-content: center;margin: 40px 0px;}
+	.localizacao .display-grid.dois-bloco.linha .flex-item{line-break:anywhere;width: 200px;}
+}
